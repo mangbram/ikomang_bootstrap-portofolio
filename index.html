@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <title>Home</title>
+  </head>
+  <body class="bg-dark">
+    <!--navbar section start-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark text-light sticky-top bg-dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">I Komang's Nest</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Others
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/contact/">Contact</a></li>
+                <li>
+                  <a class="dropdown-item" href="/socmed/">Social Media</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--navbar section end-->
+
+    <!-- column section start-->
+    <div class="container-fluid bg-dark text-light" style="height: 100%" ;>
+      <!-- carousell start-->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/image/carousel1.jpg"
+              class="d-block w-100"
+              alt="balinese-tradition"
+              style="height: 500px; object-fit: cover"
+            />
+            <div class="carousel-caption">
+              <h5>Hopkroft Karp's Family</h5>
+              <p>My little family in Informatics</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="height: 500px">
+            <img
+              src="assets/image/carousel2.jpg"
+              class="d-block w-100"
+              alt="balinese-tradition"
+              style="height: 500px; object-fit: cover"
+            />
+            <div class="carousel-caption">
+              <h5>Cyberonics Gen-1</h5>
+              <p>Our first series of webinar.</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="height: 500px">
+            <img
+              src="assets/image/carousel3.jpg"
+              class="d-block w-100"
+              alt="milky-way"
+              style="height: 500px; object-fit: cover"
+            />
+            <div class="carousel-caption">
+              <h5>Svara Nusantara Choir</h5>
+              <p>Proud to be a tenor-sound boy!.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carousell end-->
+      <div class="row text-center align-items-center mt-5">
+        <div class="col-12">
+          <img src="assets/image/myPhoto.jpg" alt="" width="150px" />
+          <h2 class="mt-3">I Komang Tri Cahya Bramantara</h2>
+          <p>Welcome to my portofolio website.</p>
+        </div>
+      </div>
+      <!-- card section start -->
+      <div class="row text-dark mt-4">
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">More about myself</h5>
+              <p class="card-text">
+                Detailed bio about me including curriculum vitae.
+              </p>
+              <a href="/about" class="btn btn-dark d-block">About</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Contact me</h5>
+              <p class="card-text">
+                You can contact me directly with these.
+              </p>
+              <a href="/contact" class="btn btn-dark d-block">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 g-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Find me on Socmed</h5>
+              <p class="card-text">
+                Social media I usually use to post about myself.
+              </p>
+              <a href="/socmed/" class="btn btn-dark d-block">Social Media</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card section end-->
+    </div>
+    <!-- column section end-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js
+    "></script>
+  </body>
+</html>
